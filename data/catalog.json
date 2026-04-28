@@ -1,0 +1,834 @@
+[
+  {
+    "id": "P001",
+    "name": "Fisher-Price Kick and Play Piano Gym",
+    "name_ar": "مسرح اللعب بالبيانو من فيشر برايس",
+    "category": "toys",
+    "age_min_months": 0,
+    "age_max_months": 6,
+    "price_aed": 189,
+    "tags": [
+      "newborn",
+      "sensory",
+      "tummy time",
+      "music"
+    ],
+    "description": "Baby gym with piano keys that light up and play music when kicked."
+  },
+  {
+    "id": "P002",
+    "name": "Infantino Flip 4-in-1 Carrier",
+    "name_ar": "حامل أطفال 4 في 1 من إنفانتينو",
+    "category": "gear",
+    "age_min_months": 0,
+    "age_max_months": 36,
+    "price_aed": 149,
+    "tags": [
+      "baby carrier",
+      "newborn",
+      "ergonomic",
+      "travel"
+    ],
+    "description": "Convertible baby carrier supporting 4 carrying positions."
+  },
+  {
+    "id": "P003",
+    "name": "Munchkin Miracle 360 Trainer Cup",
+    "name_ar": "كوب تدريب ميراكل 360 من مانشكن",
+    "category": "feeding",
+    "age_min_months": 12,
+    "age_max_months": 36,
+    "price_aed": 45,
+    "tags": [
+      "sippy cup",
+      "toddler",
+      "spill-proof",
+      "feeding"
+    ],
+    "description": "360-degree drinking cup that prevents spills."
+  },
+  {
+    "id": "P004",
+    "name": "LEGO DUPLO Classic Brick Box",
+    "name_ar": "صندوق مكعبات ليغو دوبلو الكلاسيكي",
+    "category": "toys",
+    "age_min_months": 18,
+    "age_max_months": 60,
+    "price_aed": 165,
+    "tags": [
+      "building blocks",
+      "toddler",
+      "creative",
+      "educational"
+    ],
+    "description": "65-piece DUPLO set for toddlers to build and play."
+  },
+  {
+    "id": "P005",
+    "name": "Ergobaby Embrace Newborn Carrier",
+    "name_ar": "حامل المواليد إمبريس من إيرغوبيبي",
+    "category": "gear",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 399,
+    "tags": [
+      "newborn",
+      "carrier",
+      "ergonomic"
+    ],
+    "description": "Soft structured carrier designed specifically for newborns."
+  },
+  {
+    "id": "P006",
+    "name": "Philips Avent Natural Baby Bottle Starter Set",
+    "name_ar": "طقم زجاجات رضاعة فيليبس أفنت",
+    "category": "feeding",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 199,
+    "tags": [
+      "bottle",
+      "newborn",
+      "feeding",
+      "anti-colic",
+      "breastfeeding"
+    ],
+    "description": "Starter set with 4 natural baby bottles and slow-flow teats."
+  },
+  {
+    "id": "P007",
+    "name": "Skip Hop 3-Stage Activity Center",
+    "name_ar": "مركز نشاط سكيب هوب 3 مراحل",
+    "category": "toys",
+    "age_min_months": 4,
+    "age_max_months": 12,
+    "price_aed": 349,
+    "tags": [
+      "activity center",
+      "jumper",
+      "sensory",
+      "standing"
+    ],
+    "description": "3-stage activity center that grows with baby."
+  },
+  {
+    "id": "P008",
+    "name": "Aden Anais Muslin Swaddle Blankets 4-Pack",
+    "name_ar": "بطانيات تقميط موسلين من أيدن وأناييس",
+    "category": "bedding",
+    "age_min_months": 0,
+    "age_max_months": 6,
+    "price_aed": 175,
+    "tags": [
+      "swaddle",
+      "newborn",
+      "muslin",
+      "blanket",
+      "gift"
+    ],
+    "description": "Breathable muslin swaddle blankets ideal for gifting."
+  },
+  {
+    "id": "P009",
+    "name": "BabyBjorn Bouncer Bliss",
+    "name_ar": "كرسي هزاز بيبي بيورن بليس",
+    "category": "gear",
+    "age_min_months": 0,
+    "age_max_months": 24,
+    "price_aed": 699,
+    "tags": [
+      "bouncer",
+      "newborn",
+      "soothing",
+      "seat"
+    ],
+    "description": "Ergonomic bouncer that moves with baby natural movements."
+  },
+  {
+    "id": "P010",
+    "name": "Graco Pack n Play Playard",
+    "name_ar": "سرير لعب وراحة غريكو",
+    "category": "gear",
+    "age_min_months": 0,
+    "age_max_months": 36,
+    "price_aed": 549,
+    "tags": [
+      "travel cot",
+      "playard",
+      "newborn",
+      "portable",
+      "sleep"
+    ],
+    "description": "Portable playard with bassinet for newborns."
+  },
+  {
+    "id": "P011",
+    "name": "Nuby Teething Keys",
+    "name_ar": "مفاتيح تسنين من نوبي",
+    "category": "toys",
+    "age_min_months": 3,
+    "age_max_months": 12,
+    "price_aed": 35,
+    "tags": [
+      "teething",
+      "baby",
+      "sensory",
+      "chew toy"
+    ],
+    "description": "Colorful teething keys with multiple textures."
+  },
+  {
+    "id": "P012",
+    "name": "Sophie La Girafe Teether",
+    "name_ar": "لعبة التسنين سوفي الزرافة",
+    "category": "toys",
+    "age_min_months": 3,
+    "age_max_months": 12,
+    "price_aed": 110,
+    "tags": [
+      "teething",
+      "natural rubber",
+      "sensory",
+      "classic gift"
+    ],
+    "description": "Iconic natural rubber teething giraffe loved by babies worldwide."
+  },
+  {
+    "id": "P013",
+    "name": "Baby Einstein Take Along Tunes Musical Toy",
+    "name_ar": "لعبة موسيقية من بيبي أينشتاين",
+    "category": "toys",
+    "age_min_months": 3,
+    "age_max_months": 18,
+    "price_aed": 79,
+    "tags": [
+      "music",
+      "sensory",
+      "baby",
+      "educational",
+      "portable"
+    ],
+    "description": "Handheld musical toy with 7 classical melodies."
+  },
+  {
+    "id": "P014",
+    "name": "Chicco Next2Me Magic Side-Sleeping Crib",
+    "name_ar": "سرير بجانب السرير شيكو",
+    "category": "bedding",
+    "age_min_months": 0,
+    "age_max_months": 6,
+    "price_aed": 899,
+    "tags": [
+      "co-sleeper",
+      "bassinet",
+      "newborn",
+      "safe sleep"
+    ],
+    "description": "Side-sleeping crib that attaches to adult bed."
+  },
+  {
+    "id": "P015",
+    "name": "VTech 2-in-1 Learn and Write Tablet",
+    "name_ar": "تابلت التعلم والكتابة من في تيك",
+    "category": "educational",
+    "age_min_months": 36,
+    "age_max_months": 84,
+    "price_aed": 129,
+    "tags": [
+      "educational",
+      "toddler",
+      "writing",
+      "letters",
+      "numbers"
+    ],
+    "description": "Interactive tablet teaching letters numbers and drawing."
+  },
+  {
+    "id": "P016",
+    "name": "Babymoov Cosydream Newborn Lounger",
+    "name_ar": "وسادة استلقاء المواليد من بيبيموف",
+    "category": "bedding",
+    "age_min_months": 0,
+    "age_max_months": 4,
+    "price_aed": 279,
+    "tags": [
+      "newborn lounger",
+      "positioner",
+      "tummy time",
+      "comfort"
+    ],
+    "description": "Ergonomic newborn lounger with removable cushion."
+  },
+  {
+    "id": "P017",
+    "name": "Tommee Tippee Electric Breast Pump",
+    "name_ar": "شفاطة حليب كهربائية من تومي تيبي",
+    "category": "feeding",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 349,
+    "tags": [
+      "breast pump",
+      "breastfeeding",
+      "mom",
+      "electric"
+    ],
+    "description": "Quiet electric breast pump with let-down massage mode."
+  },
+  {
+    "id": "P018",
+    "name": "Melissa and Doug Deluxe Pounding Bench",
+    "name_ar": "طاولة الطرق الفاخرة من ميليسا وداغ",
+    "category": "toys",
+    "age_min_months": 12,
+    "age_max_months": 36,
+    "price_aed": 95,
+    "tags": [
+      "wooden toy",
+      "toddler",
+      "motor skills",
+      "pounding"
+    ],
+    "description": "Classic wooden pounding bench toy developing motor skills."
+  },
+  {
+    "id": "P019",
+    "name": "Chicco Fit2 Adapt Car Seat",
+    "name_ar": "مقعد سيارة فيت2 من شيكو",
+    "category": "gear",
+    "age_min_months": 0,
+    "age_max_months": 48,
+    "price_aed": 1299,
+    "tags": [
+      "car seat",
+      "infant",
+      "convertible",
+      "safety"
+    ],
+    "description": "Rear-facing convertible car seat for infants to toddlers."
+  },
+  {
+    "id": "P020",
+    "name": "Infantino Squeeze Station Food Pouch Maker",
+    "name_ar": "ماكينة صنع أكياس الطعام من إنفانتينو",
+    "category": "feeding",
+    "age_min_months": 4,
+    "age_max_months": 36,
+    "price_aed": 99,
+    "tags": [
+      "food pouch",
+      "weaning",
+      "puree",
+      "feeding"
+    ],
+    "description": "Make reusable food pouches at home for weaning babies."
+  },
+  {
+    "id": "P021",
+    "name": "Cloud b Twilight Turtle Night Light",
+    "name_ar": "لمبة ليلية سلحفاة من كلاود بي",
+    "category": "bedding",
+    "age_min_months": 0,
+    "age_max_months": 84,
+    "price_aed": 149,
+    "tags": [
+      "night light",
+      "sleep",
+      "stars",
+      "soothing",
+      "nursery"
+    ],
+    "description": "Projects stars on ceiling in 3 colors soothing for sleep."
+  },
+  {
+    "id": "P022",
+    "name": "Haakaa Silicone Breast Pump Gen 2",
+    "name_ar": "شفاطة حليب سيليكون هاكا",
+    "category": "feeding",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 89,
+    "tags": [
+      "breast pump",
+      "manual",
+      "breastfeeding",
+      "silicone",
+      "mom"
+    ],
+    "description": "Hands-free silicone breast pump for passive milk collection."
+  },
+  {
+    "id": "P023",
+    "name": "PlanToys Stacking Ring",
+    "name_ar": "لعبة حلقات التراكم من بلان تويز",
+    "category": "toys",
+    "age_min_months": 12,
+    "age_max_months": 36,
+    "price_aed": 75,
+    "tags": [
+      "stacking",
+      "toddler",
+      "wooden",
+      "educational",
+      "motor skills"
+    ],
+    "description": "Eco-friendly wooden stacking ring toy for toddlers."
+  },
+  {
+    "id": "P024",
+    "name": "Spectra S2 Plus Electric Breast Pump",
+    "name_ar": "شفاطة حليب سبيكترا S2 بلس",
+    "category": "feeding",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 599,
+    "tags": [
+      "breast pump",
+      "double electric",
+      "breastfeeding",
+      "hospital grade",
+      "mom"
+    ],
+    "description": "Hospital-grade double electric pump with night mode."
+  },
+  {
+    "id": "P025",
+    "name": "Nuby 3-Stage Grow with Me Bath Set",
+    "name_ar": "طقم استحمام 3 مراحل من نوبي",
+    "category": "bath",
+    "age_min_months": 0,
+    "age_max_months": 24,
+    "price_aed": 129,
+    "tags": [
+      "bath",
+      "newborn",
+      "bath seat",
+      "gift set",
+      "tub"
+    ],
+    "description": "Bath set with 3 stages from newborn to toddler."
+  },
+  {
+    "id": "P026",
+    "name": "Jellycat Bashful Bunny Medium",
+    "name_ar": "أرنب جيلي كات باشفول المتوسط",
+    "category": "toys",
+    "age_min_months": 0,
+    "age_max_months": 84,
+    "price_aed": 120,
+    "tags": [
+      "soft toy",
+      "plush",
+      "newborn",
+      "gift",
+      "bunny",
+      "comfort"
+    ],
+    "description": "Iconic ultra-soft plush bunny a classic baby gift."
+  },
+  {
+    "id": "P027",
+    "name": "Sleepyhead Deluxe Baby Pod",
+    "name_ar": "وسادة نوم ديلوكس من سليبيهيد",
+    "category": "bedding",
+    "age_min_months": 0,
+    "age_max_months": 8,
+    "price_aed": 699,
+    "tags": [
+      "baby pod",
+      "lounger",
+      "newborn",
+      "safe sleep",
+      "comfort"
+    ],
+    "description": "Portable baby pod providing snug sleeping environment."
+  },
+  {
+    "id": "P028",
+    "name": "Maxi-Cosi Kori 2-in-1 Rocker",
+    "name_ar": "كرسي هزاز ماكسي كوزي كوري",
+    "category": "gear",
+    "age_min_months": 0,
+    "age_max_months": 6,
+    "price_aed": 449,
+    "tags": [
+      "rocker",
+      "bouncer",
+      "newborn",
+      "soothing",
+      "vibration"
+    ],
+    "description": "2-in-1 rocker and bouncer with vibration modes."
+  },
+  {
+    "id": "P029",
+    "name": "Lamaze Freddie the Firefly",
+    "name_ar": "لعبة فريدي اليراعة من لاماز",
+    "category": "toys",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 89,
+    "tags": [
+      "sensory toy",
+      "newborn",
+      "crinkle",
+      "clip-on",
+      "gift"
+    ],
+    "description": "Sensory clip-on toy with crinkle wings and mirror."
+  },
+  {
+    "id": "P030",
+    "name": "Comotomo Natural Feel Baby Bottle 2-Pack",
+    "name_ar": "طقم زجاجتي رضاعة كوموتومو",
+    "category": "feeding",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 159,
+    "tags": [
+      "bottle",
+      "silicone",
+      "anti-colic",
+      "breastfeeding",
+      "newborn"
+    ],
+    "description": "Soft silicone bottle mimicking breastfeeding experience."
+  },
+  {
+    "id": "P031",
+    "name": "Bright Starts Lots of Links Toy",
+    "name_ar": "حلقات ربط ملونة من برايت ستارتس",
+    "category": "toys",
+    "age_min_months": 3,
+    "age_max_months": 18,
+    "price_aed": 29,
+    "tags": [
+      "links",
+      "baby",
+      "attachable",
+      "colorful",
+      "sensory"
+    ],
+    "description": "Colorful links that attach to strollers car seats and carriers."
+  },
+  {
+    "id": "P032",
+    "name": "Skip Hop Forma Backpack Diaper Bag",
+    "name_ar": "حقيبة حفاضات ظهر من سكيب هوب",
+    "category": "mom",
+    "age_min_months": 0,
+    "age_max_months": 36,
+    "price_aed": 399,
+    "tags": [
+      "diaper bag",
+      "backpack",
+      "mom",
+      "travel",
+      "organized"
+    ],
+    "description": "Large capacity backpack diaper bag with stroller straps."
+  },
+  {
+    "id": "P033",
+    "name": "Infantino 3-in-1 Floor Play Mat",
+    "name_ar": "حصيرة لعب أرضية 3 في 1 من إنفانتينو",
+    "category": "toys",
+    "age_min_months": 6,
+    "age_max_months": 36,
+    "price_aed": 175,
+    "tags": [
+      "play mat",
+      "activity",
+      "tummy time",
+      "floor play",
+      "baby gym"
+    ],
+    "description": "Foldable play mat with removable toys and mirror."
+  },
+  {
+    "id": "P034",
+    "name": "Nuby Natural Touch Newborn Gift Set",
+    "name_ar": "طقم هدايا المواليد من نوبي",
+    "category": "feeding",
+    "age_min_months": 0,
+    "age_max_months": 6,
+    "price_aed": 149,
+    "tags": [
+      "gift set",
+      "newborn",
+      "bottle",
+      "soother",
+      "feeding"
+    ],
+    "description": "Complete newborn starter kit with bottles soother and spoon."
+  },
+  {
+    "id": "P035",
+    "name": "Stokke Flexi Bath Newborn Set",
+    "name_ar": "طقم حمام المواليد فليكسي من ستوكي",
+    "category": "bath",
+    "age_min_months": 0,
+    "age_max_months": 48,
+    "price_aed": 249,
+    "tags": [
+      "bath tub",
+      "newborn",
+      "foldable",
+      "travel",
+      "bath"
+    ],
+    "description": "Foldable bath tub with newborn support insert."
+  },
+  {
+    "id": "P036",
+    "name": "Ergobaby 360 All Positions Baby Carrier",
+    "name_ar": "حامل أطفال 360 من إيرغوبيبي",
+    "category": "gear",
+    "age_min_months": 4,
+    "age_max_months": 48,
+    "price_aed": 849,
+    "tags": [
+      "carrier",
+      "ergonomic",
+      "hip seat",
+      "all positions"
+    ],
+    "description": "Award-winning carrier supporting all 4 carrying positions."
+  },
+  {
+    "id": "P037",
+    "name": "Loulou Lollipop Silicone Teething Set",
+    "name_ar": "طقم تسنين سيليكون من لولو لولي بوب",
+    "category": "toys",
+    "age_min_months": 3,
+    "age_max_months": 18,
+    "price_aed": 85,
+    "tags": [
+      "teething",
+      "silicone",
+      "BPA-free",
+      "gift",
+      "cute"
+    ],
+    "description": "Aesthetic silicone teething set with clip and pacifier chain."
+  },
+  {
+    "id": "P038",
+    "name": "Infantino Music and Lights Discovery Seat",
+    "name_ar": "كرسي اكتشاف بالموسيقى من إنفانتينو",
+    "category": "toys",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 299,
+    "tags": [
+      "activity seat",
+      "baby",
+      "music",
+      "lights",
+      "sensory"
+    ],
+    "description": "3-stage seat with lights and music growing with baby."
+  },
+  {
+    "id": "P039",
+    "name": "Bumbo Multi Seat",
+    "name_ar": "كرسي بومبو متعدد الاستخدامات",
+    "category": "gear",
+    "age_min_months": 6,
+    "age_max_months": 36,
+    "price_aed": 199,
+    "tags": [
+      "floor seat",
+      "toddler",
+      "sitting support",
+      "tray"
+    ],
+    "description": "Versatile foam seat supporting baby sitting development."
+  },
+  {
+    "id": "P040",
+    "name": "Dr. Browns Anti-Colic Baby Bottle",
+    "name_ar": "زجاجة رضاعة مضادة للمغص من دكتور براون",
+    "category": "feeding",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 55,
+    "tags": [
+      "bottle",
+      "anti-colic",
+      "newborn",
+      "feeding"
+    ],
+    "description": "Internal vent system eliminates colic gas and spit-up."
+  },
+  {
+    "id": "P041",
+    "name": "Manhattan Toy Winkel Rattle and Teether",
+    "name_ar": "لعبة رعاع وتسنين من مانهاتن تويز",
+    "category": "toys",
+    "age_min_months": 3,
+    "age_max_months": 12,
+    "price_aed": 69,
+    "tags": [
+      "rattle",
+      "teether",
+      "sensory",
+      "baby",
+      "award-winning"
+    ],
+    "description": "Award-winning rattle and teether with looped tubes."
+  },
+  {
+    "id": "P042",
+    "name": "Baby Delight Snuggle Nest Portable Sleeper",
+    "name_ar": "سرير رضيع محمول من بيبي ديلايت",
+    "category": "bedding",
+    "age_min_months": 0,
+    "age_max_months": 4,
+    "price_aed": 299,
+    "tags": [
+      "infant sleeper",
+      "portable",
+      "newborn",
+      "co-sleeping",
+      "bedside"
+    ],
+    "description": "Portable infant sleeper with soothing sounds and light."
+  },
+  {
+    "id": "P043",
+    "name": "Graco Sense2Soothe Baby Swing",
+    "name_ar": "أرجوحة أطفال سينس تو سوذ من غريكو",
+    "category": "gear",
+    "age_min_months": 0,
+    "age_max_months": 6,
+    "price_aed": 799,
+    "tags": [
+      "swing",
+      "newborn",
+      "soothing",
+      "vibration",
+      "sounds"
+    ],
+    "description": "Smart swing detecting and responding to baby cries."
+  },
+  {
+    "id": "P044",
+    "name": "Learning Resources Coding Critters",
+    "name_ar": "مجموعة تعليم البرمجة للأطفال",
+    "category": "educational",
+    "age_min_months": 48,
+    "age_max_months": 96,
+    "price_aed": 189,
+    "tags": [
+      "coding",
+      "STEM",
+      "preschool",
+      "educational toy"
+    ],
+    "description": "Screen-free coding toy for early STEM learning."
+  },
+  {
+    "id": "P045",
+    "name": "Babyzen YOYO Compact Stroller",
+    "name_ar": "عربة أطفال يويو من بيبي زن",
+    "category": "gear",
+    "age_min_months": 6,
+    "age_max_months": 48,
+    "price_aed": 2199,
+    "tags": [
+      "stroller",
+      "compact",
+      "travel",
+      "cabin approved",
+      "lightweight"
+    ],
+    "description": "Ultra-compact cabin-approved stroller for travelling families."
+  },
+  {
+    "id": "P046",
+    "name": "Chicco Pocket Snack Booster Seat",
+    "name_ar": "كرسي تعزيز الطعام من شيكو",
+    "category": "feeding",
+    "age_min_months": 6,
+    "age_max_months": 36,
+    "price_aed": 119,
+    "tags": [
+      "booster seat",
+      "highchair",
+      "portable",
+      "feeding",
+      "toddler"
+    ],
+    "description": "Compact foldable booster seat for feeding on the go."
+  },
+  {
+    "id": "P047",
+    "name": "Moon Organic Cotton Baby Gift Set",
+    "name_ar": "طقم هدايا قطن عضوي من مون",
+    "category": "clothing",
+    "age_min_months": 0,
+    "age_max_months": 6,
+    "price_aed": 185,
+    "tags": [
+      "gift set",
+      "organic",
+      "newborn",
+      "clothing",
+      "soft",
+      "UAE brand"
+    ],
+    "description": "Organic cotton newborn gift set by UAE-based brand Moon."
+  },
+  {
+    "id": "P048",
+    "name": "Infantino Twist and Fold Activity Gym",
+    "name_ar": "صالة نشاط قابلة للطي من إنفانتينو",
+    "category": "toys",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 189,
+    "tags": [
+      "activity gym",
+      "newborn",
+      "tummy time",
+      "foldable",
+      "sensory"
+    ],
+    "description": "Foldable activity gym with 20 sensory activities."
+  },
+  {
+    "id": "P049",
+    "name": "Nuby 3-Stage Feeding Set",
+    "name_ar": "طقم تغذية 3 مراحل من نوبي",
+    "category": "feeding",
+    "age_min_months": 4,
+    "age_max_months": 24,
+    "price_aed": 79,
+    "tags": [
+      "weaning",
+      "feeding set",
+      "spoon",
+      "bowl",
+      "starter"
+    ],
+    "description": "Complete weaning starter set with spoon bowl and cup."
+  },
+  {
+    "id": "P050",
+    "name": "Bright Starts Giggle Ball",
+    "name_ar": "كرة إضحاك من برايت ستارتس",
+    "category": "toys",
+    "age_min_months": 3,
+    "age_max_months": 18,
+    "price_aed": 59,
+    "tags": [
+      "ball",
+      "sensory",
+      "baby",
+      "giggle",
+      "rolling toy"
+    ],
+    "description": "Giggling ball with lights and sounds encouraging crawling."
+  }
+]

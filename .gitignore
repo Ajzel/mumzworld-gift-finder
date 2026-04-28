@@ -1,0 +1,6 @@
+echo ".env
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+evals/eval_results.json" > .gitignore

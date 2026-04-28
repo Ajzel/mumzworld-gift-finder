@@ -1,0 +1,103 @@
+[
+  {
+    "id": "TC01",
+    "description": "Standard EN query — age + budget + preference",
+    "query": "Thoughtful gift for a friend with a 6-month-old, under 200 AED",
+    "expect_match": true,
+    "expect_language": "en",
+    "expect_max_price": 200,
+    "expect_max_age_months": 6
+  },
+  {
+    "id": "TC02",
+    "description": "Arabic query — newborn gift",
+    "query": "هدية لطفلة حديثة الولادة، الميزانية 300 درهم",
+    "expect_match": true,
+    "expect_language": "ar",
+    "expect_max_price": 300,
+    "expect_max_age_months": 1
+  },
+  {
+    "id": "TC03",
+    "description": "Mom gift — breast pump",
+    "query": "Gift for a breastfeeding mom, under 100 AED",
+    "expect_match": true,
+    "expect_language": "en",
+    "expect_max_price": 100,
+    "expect_is_for_mom": true
+  },
+  {
+    "id": "TC04",
+    "description": "Adversarial — impossibly low budget",
+    "query": "Gift for a newborn under 10 AED",
+    "expect_match": false,
+    "expect_language": "en",
+    "expect_max_price": 10
+  },
+  {
+    "id": "TC05",
+    "description": "Adversarial — very high age, nothing suitable",
+    "query": "Gift for a 10-year-old, under 50 AED",
+    "expect_match": false,
+    "expect_language": "en",
+    "expect_max_age_months": 120
+  },
+  {
+    "id": "TC06",
+    "description": "Educational toy for toddler",
+    "query": "Educational toy for a 2-year-old, budget 150 AED",
+    "expect_match": true,
+    "expect_language": "en",
+    "expect_max_price": 150,
+    "expect_max_age_months": 24
+  },
+  {
+    "id": "TC07",
+    "description": "Arabic query — toddler toy with budget",
+    "query": "لعبة تعليمية لطفل عمره سنتان، الميزانية 200 درهم",
+    "expect_match": true,
+    "expect_language": "ar",
+    "expect_max_price": 200,
+    "expect_max_age_months": 24
+  },
+  {
+    "id": "TC08",
+    "description": "Baby shower gift — no age, no budget",
+    "query": "Something nice for a baby shower",
+    "expect_match": true,
+    "expect_language": "en"
+  },
+  {
+    "id": "TC09",
+    "description": "Adversarial — out of scope product category",
+    "query": "Gift for a teenager, under 100 AED",
+    "expect_match": false,
+    "expect_language": "en"
+  },
+  {
+    "id": "TC10",
+    "description": "Sensory toy for 3-month-old, tight budget",
+    "query": "Sensory toy for a 3-month-old baby, under 80 AED",
+    "expect_match": true,
+    "expect_language": "en",
+    "expect_max_price": 80,
+    "expect_max_age_months": 3
+  },
+  {
+    "id": "TC11",
+    "description": "Eid gift in Arabic",
+    "query": "هدية عيد لطفل عمره 8 أشهر، الميزانية 250 درهم",
+    "expect_match": true,
+    "expect_language": "ar",
+    "expect_max_price": 250,
+    "expect_max_age_months": 8
+  },
+  {
+    "id": "TC12",
+    "description": "Adversarial — no budget but price too high implicitly",
+    "query": "Cheap gift for a newborn, under 20 AED",
+    "expect_match": false,
+    "expect_language": "en",
+    "expect_max_price": 20
+  }
+]
