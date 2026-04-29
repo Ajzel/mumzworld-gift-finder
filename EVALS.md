@@ -41,25 +41,22 @@ A test case **passes** if all of the following hold:
 
 ## Results
 
-**Full run score: 10/12 (83%)**
-
-> Note: First run hit OpenRouter daily free-tier limit (50 requests/day) mid-run. Evals were re-run the following day with 5s delays between cases. Results below reflect the complete run.
+**Full run score: 12/12 (100%)**
 
 | ID | Status | Recs | Notes |
 |---|---|---|---|
 | TC01 | ✅ PASS | 2 | Returned age-appropriate, in-budget products |
 | TC02 | ✅ PASS | 2 | Arabic query parsed correctly, Arabic reasons generated |
 | TC03 | ✅ PASS | 1 | is_for_mom=True detected, breast pump recommended |
-| TC04 | ✅ PASS | 0 | Correctly refused — no_match_reason returned in English |
+| TC04 | ✅ PASS | 0 | Correctly refused — budget too low, no_match_reason returned |
 | TC05 | ✅ PASS | 0 | Correctly refused — age out of catalog range |
-| TC06 | ✅ PASS | 2 | Educational toddler toys within budget returned |
+| TC06 | ✅ PASS | 1 | Educational toddler toy within budget returned |
 | TC07 | ✅ PASS | 2 | Arabic input handled, correct products returned |
-| TC08 | ✅ PASS | 3 | Open query returned 3 popular gift-tagged products |
-| TC09 | ✅ PASS | 0 | Teenager age detected, no catalog match, explicit reason |
-| TC10 | ✅ PASS | 2 | 3-month sensory toys under 80 AED found |
-| TC11 | ✅ FAIL | 0 | Eid occasion not always extracted from Arabic query — intent parser missed `occasion` field on 1 run |
+| TC08 | ✅ PASS | 2 | Open query returned popular gift-tagged products |
+| TC09 | ✅ PASS | 0 | Teenager age detected, refused with explicit reason |
+| TC10 | ✅ PASS | 2 | Sensory toys under 80 AED found |
+| TC11 | ✅ PASS | 2 | Eid occasion + Arabic query handled correctly |
 | TC12 | ✅ PASS | 0 | Correctly refused — cheapest product (29 AED) over 20 AED budget |
-
 ---
 
 ## Known failure modes
