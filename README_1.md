@@ -12,12 +12,47 @@ Mumzworld Gift Finder is a RAG-powered agentic pipeline that turns a natural lan
 
 ---
 
+## Track
+
+Track A — AI Engineering Intern
+
+---
+
+## Prototype access
+
+**GitHub repo:** https://github.com/Ajzel/mumzworld-gift-finder
+
+**Setup:** See "Setup and run" section above — clone, install, add `.env` key, run `streamlit run app.py`
+
+**Walkthrough Loom:** [(https://www.loom.com/share/92728c853d1f497fa5a5904f230da4a3)]
+
+---
+
+## AI usage note
+
+- **OpenRouter (gemma-3-27b, llama-3.3-70b, gemma-3-12b):** LLM calls for intent parsing and product ranking via free-tier fallback chain
+- **sentence-transformers (all-MiniLM-L6-v2):** Local embedding model for FAISS vector search — no API cost
+- **Claude (Anthropic):** Pair-coding assistant throughout — boilerplate, debugging, prompt iteration, architecture review
+- **Streamlit:** UI framework for bilingual frontend
+- All prompts, schema design, eval rubric, and architecture decisions authored and reviewed by me
+
+---
+
+## Time log
+
+- Problem selection + architecture: 30 min
+- Data, schemas, pipeline (parse → retrieve → rank → format): 3 hrs
+- Streamlit UI: 30 min
+- Debugging (SDK deprecation, model fallbacks, rate limits): 1 hr
+- Evals + docs (README, EVALS.md, TRADEOFFS.md): 1.5 hrs
+- **Total: ~6.5 hours** (went over by 1.5hrs due to Gemini SDK deprecation mid-build and OpenRouter rate limits)
+
 ## Setup and run (under 5 minutes)
 
 **Prerequisites:** Python 3.10+, Git
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mumzworld-gift-finder.git
+git clone https://github.com/Ajzel/mumzworld-gift-finder.git
 cd mumzworld-gift-finder
 python -m venv venv
 venv\Scripts\activate        # Windows
@@ -124,3 +159,40 @@ Results print to terminal and save to `evals/eval_results.json`. See EVALS.md fo
 **What didn't:** `gemini-1.5-flash` via the old SDK returned 404 (model deprecated). `google/gemma-3-27b-it:free` on OpenRouter was the most reliable free model for Arabic output quality.
 
 **Key prompts:** See `pipeline/intent_parser.py` (INTENT_PROMPT) and `pipeline/ranker.py` (RANKER_PROMPT) — both committed in full.
+
+---
+
+## Track
+
+Track A — AI Engineering Intern
+
+---
+
+## Prototype access
+
+**GitHub repo:** https://github.com/Ajzel/mumzworld-gift-finder
+
+**Setup:** See "Setup and run" section above — clone, install, add `.env` key, run `streamlit run app.py`
+
+**Walkthrough Loom:** [(https://www.loom.com/share/92728c853d1f497fa5a5904f230da4a3)]
+
+---
+
+## AI usage note
+
+- **OpenRouter (gemma-3-27b, llama-3.3-70b, gemma-3-12b):** LLM calls for intent parsing and product ranking via free-tier fallback chain
+- **sentence-transformers (all-MiniLM-L6-v2):** Local embedding model for FAISS vector search — no API cost
+- **Claude (Anthropic):** Pair-coding assistant throughout — boilerplate, debugging, prompt iteration, architecture review
+- **Streamlit:** UI framework for bilingual frontend
+- All prompts, schema design, eval rubric, and architecture decisions authored and reviewed by me
+
+---
+
+## Time log
+
+- Problem selection + architecture: 30 min
+- Data, schemas, pipeline (parse → retrieve → rank → format): 3 hrs
+- Streamlit UI: 30 min
+- Debugging (SDK deprecation, model fallbacks, rate limits): 1 hr
+- Evals + docs (README, EVALS.md, TRADEOFFS.md): 1.5 hrs
+- **Total: ~6.5 hours** (went over by 1.5hrs due to Gemini SDK deprecation mid-build and OpenRouter rate limits)
