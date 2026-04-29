@@ -39,88 +39,72 @@
     "id": "TC05",
     "description": "Adversarial — very high age, nothing suitable",
     "query": "Gift for a 10-year-old, under 50 AED",
-    "passed": false,
-    "failures": [
-      "Pipeline error: All models failed. Last error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1777420800000'}, 'provider_name': None}}, 'user_id': 'user_34IzXqAk7nLPniqcAHYgeJSrGqP'}"
-    ],
+    "passed": true,
+    "failures": [],
     "recs": 0,
-    "no_match_reason": null
+    "no_match_reason": "No products match your budget and the child's age together. Try increasing your budget."
   },
   {
     "id": "TC06",
     "description": "Educational toy for toddler",
     "query": "Educational toy for a 2-year-old, budget 150 AED",
-    "passed": false,
-    "failures": [
-      "Pipeline error: All models failed. Last error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1777362420000'}, 'provider_name': None}}, 'user_id': 'user_34IzXqAk7nLPniqcAHYgeJSrGqP'}"
-    ],
-    "recs": 0,
+    "passed": true,
+    "failures": [],
+    "recs": 1,
     "no_match_reason": null
   },
   {
     "id": "TC07",
     "description": "Arabic query — toddler toy with budget",
     "query": "لعبة تعليمية لطفل عمره سنتان، الميزانية 200 درهم",
-    "passed": false,
-    "failures": [
-      "Pipeline error: All models failed. Last error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1777362420000'}, 'provider_name': None}}, 'user_id': 'user_34IzXqAk7nLPniqcAHYgeJSrGqP'}"
-    ],
-    "recs": 0,
+    "passed": true,
+    "failures": [],
+    "recs": 2,
     "no_match_reason": null
   },
   {
     "id": "TC08",
     "description": "Baby shower gift — no age, no budget",
     "query": "Something nice for a baby shower",
-    "passed": false,
-    "failures": [
-      "Pipeline error: All models failed. Last error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1777362420000'}, 'provider_name': None}}, 'user_id': 'user_34IzXqAk7nLPniqcAHYgeJSrGqP'}"
-    ],
-    "recs": 0,
+    "passed": true,
+    "failures": [],
+    "recs": 2,
     "no_match_reason": null
   },
   {
     "id": "TC09",
     "description": "Adversarial — out of scope product category",
     "query": "Gift for a teenager, under 100 AED",
-    "passed": false,
-    "failures": [
-      "Pipeline error: All models failed. Last error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1777420800000'}, 'provider_name': None}}, 'user_id': 'user_34IzXqAk7nLPniqcAHYgeJSrGqP'}"
-    ],
+    "passed": true,
+    "failures": [],
     "recs": 0,
-    "no_match_reason": null
+    "no_match_reason": "No products found for this age within your budget. Try adjusting age or budget."
   },
   {
     "id": "TC10",
     "description": "Sensory toy for 3-month-old, tight budget",
     "query": "Sensory toy for a 3-month-old baby, under 80 AED",
-    "passed": false,
-    "failures": [
-      "Pipeline error: All models failed. Last error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1777420800000'}, 'provider_name': None}}, 'user_id': 'user_34IzXqAk7nLPniqcAHYgeJSrGqP'}"
-    ],
-    "recs": 0,
+    "passed": true,
+    "failures": [],
+    "recs": 2,
     "no_match_reason": null
   },
   {
     "id": "TC11",
     "description": "Eid gift in Arabic",
     "query": "هدية عيد لطفل عمره 8 أشهر، الميزانية 250 درهم",
-    "passed": false,
-    "failures": [
-      "Pipeline error: All models failed. Last error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1777362480000'}, 'provider_name': None}}, 'user_id': 'user_34IzXqAk7nLPniqcAHYgeJSrGqP'}"
-    ],
-    "recs": 0,
+    "passed": true,
+    "failures": [],
+    "recs": 2,
     "no_match_reason": null
   },
   {
     "id": "TC12",
     "description": "Adversarial — no budget but price too high implicitly",
     "query": "Cheap gift for a newborn, under 20 AED",
-    "passed": false,
-    "failures": [
-      "Pipeline error: All models failed. Last error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1777362480000'}, 'provider_name': None}}, 'user_id': 'user_34IzXqAk7nLPniqcAHYgeJSrGqP'}"
-    ],
+    "passed": true,
+    "failures": [],
     "recs": 0,
-    "no_match_reason": null
+    "no_match_reason": "No products match your budget and the child's age together. Try increasing your budget."
   }
 ]
